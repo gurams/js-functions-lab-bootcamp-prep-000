@@ -5,6 +5,6 @@ function happyHolidays(){
 }
 
 function happyHolidaysTo(name){
-    var greet ="Happy holidays, "+name"!";
+    var greet ="Happy holidays, "+name+"!";
   return  greet;
 }
