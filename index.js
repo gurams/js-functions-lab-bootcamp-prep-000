@@ -5,18 +5,16 @@ function happyHolidays(){
 }
 
 function happyHolidaysTo(name){
-    var greet ="Happy holidays, "+name+"!";
-  return  greet;
+  
+  return  `It\'s ${days} days until ${holiday}!`;
 }
 
 function happyHolidayTo(holiday,name){
-    var greet ="Happy "+holiday+", "+name+"!";
-  return  greet;
+    
+  return  `Happy ${holiday}, ${name}!`;
 }
 
 function holidayCountdown(holiday, days){
-//  return "It's ${days} days until ${holiday}!";
-console.log(`It\'s ${days} days until ${holiday}!`);
-var greet ="It's "+days+" days until "+holiday+"!";
-return  greet;
+  return `It\'s ${days} days until ${holiday}!`
+
 }
