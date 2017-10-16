@@ -19,4 +19,3 @@ function holidayCountdown(holiday, days){
 var greet ="It's "+days+" days until "+name+"!";
 return  greet;
 }
-
